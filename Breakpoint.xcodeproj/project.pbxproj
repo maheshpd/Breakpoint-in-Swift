@@ -20,6 +20,7 @@
 		B583E81023ADD78F00015FF9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583E80F23ADD78F00015FF9 /* AuthVC.swift */; };
 		B583E81223ADD7D900015FF9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583E81123ADD7D900015FF9 /* LoginVC.swift */; };
 		B583E81423ADD85700015FF9 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583E81323ADD85700015FF9 /* InsetTextField.swift */; };
+		B583E81623ADE0B800015FF9 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583E81523ADE0B800015FF9 /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B583E80F23ADD78F00015FF9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		B583E81123ADD7D900015FF9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B583E81323ADD85700015FF9 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		B583E81523ADE0B800015FF9 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,6 @@
 		B55935BA23AAAB79007E0329 = {
 			isa = PBXGroup;
 			children = (
-				B583E81323ADD85700015FF9 /* InsetTextField.swift */,
 				B55935C523AAAB79007E0329 /* Breakpoint */,
 				B55935C423AAAB79007E0329 /* Products */,
 				0191BA853EC87B50D9CCFCF5 /* Pods */,
@@ -115,6 +116,8 @@
 		B55935DD23AAACF2007E0329 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B583E81323ADD85700015FF9 /* InsetTextField.swift */,
+				B583E81523ADE0B800015FF9 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B583E81623ADE0B800015FF9 /* ShadowView.swift in Sources */,
 				B583E81023ADD78F00015FF9 /* AuthVC.swift in Sources */,
 				B55935CD23AAAB79007E0329 /* SecondViewController.swift in Sources */,
 				B583E81223ADD7D900015FF9 /* LoginVC.swift in Sources */,
